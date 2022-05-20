@@ -15,7 +15,7 @@ void _printf_p(va_list arg, char *buffer, char *strtmp, char *tmp, int *indj);
 void _printf_d(va_list arg, char *buffer, char *tmp, char *strtmp, int *indj);
 void _printf_i(va_list arg, char *buffer, char *tmp, char *strtmp, int *indj);
 char *_itoa(int i, char *strout, int base);
-int print_rev(va_list r;
+int print_rev(va_list r);
 
 /**
  * struct clasification - struct with elements of type
